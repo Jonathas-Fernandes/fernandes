@@ -26,3 +26,13 @@ Com este pipeline, o gestor consegue responder a perguntas críticas:
 1.  **Qual a projeção de faturamento para 2026?** (Baseado no modelo SARIMA).
 2.  **Qual o principal gargalo do funil de vendas?** (Identificação de motivos de perda de leads).
 3.  **Qual estilo de tatuagem gera maior retorno?** (Análise de mix de produtos e ticket médio).
+
+## Camada de Visualização & BI
+Após o processamento dos dados no Databricks, conectei a camada Silver/Gold ao Power BI para criar um Dashboard Executivo focado em ROI e performance de mercado.
+
+### Principais Entregas:
+* **Previsibilidade Financeira**: Implementação do modelo SARIMA para forecast de vendas 2026.
+* **Análise YoY (Year-over-Year)**: Medidas DAX avançadas para monitorar crescimento de +27%.
+* **Pareto de Estilos**: Identificação de que o estilo "Realismo" lidera o faturamento (R$ 228k).
+
+![Dashboard Executivo](print.png)
